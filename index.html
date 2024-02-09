@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Bar</title>
+    <style>
+        /* Gaya CSS untuk menu bar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .menu-bar {
+            background-color: #006400; /* Warna hijau tua */
+            overflow: hidden;
+            display: flex; /* Menggunakan flexbox */
+        }
+        .menu-bar a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            flex-grow: 1; /* Menyesuaikan lebar secara proporsional */
+        }
+        .menu-bar a:hover {
+            background-color: #008000; /* Warna hijau lebih terang saat digulir */
+        }
+        .title {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        .post-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #006400; /* Warna hijau tua */
+            color: white;
+        }
+        .post-info-left {
+            display: inline-block;
+        }
+        .post-info-right p {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-bar">
+    <a href="#">HOME</a>
+    <a href="#">BUSINESS</a>
+    <a href="#">ADULTS</a>
+    <a href="#">FEATURED</a>
+    <a href="#">GARDENING</a>
+    <a href="#">UNCATEGORIZED</a>
+</div>
+
+<div class="title">
+    <h2>Kursi Kotak Untuk Teras Mungil</h2>
+</div>
+
+<div class="post-info">
+    <div class="post-info-left">
+        <p>POSTED BY KACANGKU</p>
+    </div>
+    <div class="post-info-right">
+        <p>ON</p>
+        <p>21.20 | NO COMMENT</p>
+    </div>
+</div>
+
+</body>
+</html>
